@@ -1,0 +1,137 @@
+.fruitCounter-bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  padding: 50px;
+}
+.fruit-counter-container {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 50px;
+}
+.heading {
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+}
+.mango-color {
+  color: #ffd569;
+}
+.banana-color {
+  color: #ffd569;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.mango-alignment {
+  height: 300px;
+  width: 400px;
+}
+.banana-alignment {
+  height: 300px;
+  width: 400px;
+}
+.button {
+  background-color: #007bff;
+  border-radius: 10px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 40px;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .fruitCounter-bg-container {
+    width: 100vw;
+    padding: 20px;
+  }
+  .fruit-counter-container {
+    padding: 20px;
+    background-color: #ffffff;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .heading {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .mango-alignment {
+    height: 150px;
+    width: 200px;
+  }
+  .banana-alignment {
+    height: 150px;
+    width: 200px;
+  }
+  .button {
+    background-color: #007bff;
+    border-radius: 10px;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 10px;
+  }
+  .mango-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banana-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fruits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mango-container {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mango-alignment {
+    height: 100px;
+    width: 150px;
+  }
+  .banana-alignment {
+    height: 100px;
+    width: 150px;
+  }
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 16px;
+  }
+}
